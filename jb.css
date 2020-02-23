@@ -1,0 +1,56 @@
+.brand {
+  color: #a1e3ff;
+  margin: 3px;
+  font-size: 20px;
+  margin-left: 2%;
+}
+.span-text {
+  font-size: 14px;
+}
+#top-nav {
+  background-color: #244580;
+}
+#left-col {
+  background-color: #2a6680;
+  border: 1px solid black;
+  font-family: "Squada One";
+  height: 100vh;
+}
+#center-col {
+  background-color: #a1e3ff;
+}
+#right-col {
+  background-color: #44a3cc;
+}
+.column-head-r {
+  margin: 2%;
+  border: 1px solid white;
+  color: #a1e3ff;
+  text-decoration: underline;
+}
+.column-head-c {
+  color: #2a6680;
+  margin: 2%;
+  border: 1px solid white;
+  text-decoration: underline;
+}
+.column-head-l {
+  margin-top: 5%;
+  margin-left: 2%;
+  color: #a1e3ff;
+  text-decoration: underline;
+}
+.contact {
+  margin: 2%;
+  color: #a1e3ff;
+  font-size: 130%;
+}
+.contact:hover {
+  color: ;
+}
+a {
+  color: #a1e3ff;
+}
+a:hover {
+  color: #fff196;
+}
