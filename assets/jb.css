@@ -24,7 +24,6 @@
 }
 .column-head-r {
   margin: 2%;
-  border: 1px solid white;
   color: #a1e3ff;
   text-decoration: underline;
 }
@@ -45,12 +44,54 @@
   color: #a1e3ff;
   font-size: 130%;
 }
-.contact:hover {
-  color: ;
-}
+
 a {
   color: #a1e3ff;
 }
 a:hover {
   color: #fff196;
+}
+#jb:hover {
+  color: #a1e3ff;
+  text-decoration: none;
+}
+
+#picture {
+  height: 250px;
+  width: 90%;
+  background-color: gray;
+  margin: 2%;
+  border: 2px solid black;
+  max-width: 200px;
+}
+.card {
+  background-size: cover;
+  height: 200px;
+  width: 40%;
+}
+.card a {
+  position: absolute;
+  bottom: 5%;
+  width: 100%;
+  opacity: 50%;
+}
+.card a:hover {
+  color: #fff196;
+  opacity: 80%;
+}
+.btn {
+  background-color: #2a6680;
+}
+.btn:hover {
+  background-color: #2a6680;
+}
+.weather {
+  background-image: url("weather_pic.png");
+}
+
+.password {
+  background-image: url("password.png");
+}
+.food {
+  background-image: url("food_finder.png");
 }
