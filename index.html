@@ -3,93 +3,160 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jon Butler</title>
-
-    <!--boot strap-->
+    <!--materialize-->
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-      crossorigin="anonymous"
-    />
-    <!--google font-->
-    <link
-      href="https://fonts.googleapis.com/css?family=Squada+One&display=swap"
-      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
     <!--custom css-->
-    <link rel="stylesheet" type="text/css" href="assets/jb.css" />
+    <link rel="stylesheet" href=/assets/profile3.css>
+    <!--google font-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Sen&display=swap"
+      rel="stylesheet"
+    />
+    <title>Jon Butler</title>
   </head>
+
   <body>
     <!--nav-->
-    <nav class="nav" id="top-nav">
-      <a href="#jb" id="jb" class="brand">
-        Jon Butler : <span class="span-text">Junior Software Developer</span>
-      </a>
-    </nav>
-    <!--body-->
-    <container>
-      <div class="row">
-        <!---left column-->
-        <div class="col-sm-2 fluid" id="left-col">
-          <div class="column-head-l"><h2>Contact Info</h2></div>
-          <div class="contact">
-            <a href="https://github.com/JBdunks">GitHub</a>
-          </div>
-          <div class="contact">
-            <a href="https://www.linkedin.com/in/jwb80jobs">LinkedIn</a>
-          </div>
-          <div class="contact">
-            <a
-              href="https://drive.google.com/file/d/1hJhke1pWlvIoJ0L6qdCHwOzvX3gAmA1-/view?usp=sharing"
-              >Resume</a
-            >
-          </div>
-          <div class="contact">
-            <a href="mailto:jwb80jobs@gmail.com">jwb80jobs@gmail.com</a>
-          </div>
-          <div class="contact">
-            Phone: <a href="tel:856-577-5648">856-577-5648</a>
-          </div>
-          <div id="picture"></div>
+    <div class="navbar-fixed">
+      <nav class="topNav">
+        <div class="nav-wrapper">
+          <a href="#" class="brand-logo center">Jon Butler</a>
+
+          <ul id="nav-mobile">
+            <li><a href="https://github.com/JBdunks">Github</a></li>
+            <li>
+              <a href="https://www.linkedin.com/in/jwb80jobs/">Linkedin</a>
+            </li>
+
+           
+          </ul>
         </div>
-        <div class="col-sm fluid" id="center-col">
-          <div class="column-head-c"><h2>Bio</h2></div>
-          <p>After spending much of my life working in the gaming industry I have decided to make a change and learn to code.</p>
-          <p>Working with computers is something that I have always been passionate about.  I am very excited to learn all that I can about coding and the challenges that come along with it.</p>
-          <p>I am currently enrolled in a coding boot camp at UPenn.  The course is very challenging but it is equally rewarding.  I look foward to graduating in April and moving foward in my pursuit to making it in this exciting industry.</p>
-        </div>
-        <div class="col-sm fluid" id="right-col">
-          <div class="column-head-r"><h3>Portfolio</h3></div>
-          <!--projects go here-->
-          <div class="row">
-            <div class="col-6">
-              
-  
-              <div class="card m-2 mb-4 weather" style="width:400px">
-                <a
-                  href="https://jbdunks.github.io/weather"
-                  class="btn btn-primary"
-                  >Weather</a
-                >
-              </div>
+      </nav>
+    </div>
+
+    <!--main content-->
+    <div class="row">
+      <div class="col s12 upper">
+        
+              <div id="photo">
+            <img src="/assets/self2.jpg" alt="JB" height="180" width="180">
+            </div>
+            <div id="info">
+                <div class="contact1">
+                    Junior Sofware Developer
+                </div>
+                <div class="contact">
+                    <a href="mailto:jwb80jobs@gmail.com">jwb80jobs@gmail.com</a>
+                  </div>
+                  <div class="contact">
+                    Phone: <a href="tel:856-577-5648">856-577-5648</a>
+                  </div>
+                  <div class="contact">
+                    <a
+                      href="https://drive.google.com/file/d/1hJhke1pWlvIoJ0L6qdCHwOzvX3gAmA1-/view?usp=sharing"
+                      >Resume</a
+                    >
+
             </div>
           </div>
           
-          <!---->
      
-        <div class="card m-2 mb-4 food" style="width:400px">
-        <a href="https://ethanl150.github.io/FoodFinder/"
-              class="btn btn-primary">Food Finder</a>
+    </div>
+
+    <div class="row">
+      <div class="col s6 lower-left center-align">
+        <!-- card -->
+        <div class="row">
+            <div class="col s12 m7">
+              <div class="card">
+                <div class="card-image">
+                  <img src="/assets/unBoxedMain.png" />
+                  
+                </div>
+                <div class="card-content">
+                  <p>
+                    Group project with
+                    <a href="https://github.com/mattmarnien">Matt Marnien </a>and
+                    <a href="https://github.com/slam427">Steven Lam</a>.<hr/> Website
+                    with both front and back end using MySquelize and Node.js
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://unboxedgaming.herokuapp.com/">unBoxed</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--end card-->
+
+        <div class="row">
+            <div class="col s12 m7">
+              <div class="card">
+                <div class="card-image">
+                  <img src="/assets/burger.png" />
+                  
+                </div>
+                <div class="card-content">
+                  <p>
+                    Website built using MYSQL, Node.js, deployed on Heroku.  
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://bobs-burger-time.herokuapp.com/">Bob's Burger Time</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end card-->
       </div>
-      <div class="card m-2 mb-4 password" style="width:400px">
-        <a href="https://bobs-burger-time.herokuapp.com/"
-              class="btn">Bob's Burger Time</a>
+
+      <div class="col s6 lower-right center-align">
+        <!-- card  -->
+        <div class="row">
+            <div class="col s12 m7">
+              <div class="card">
+                <div class="card-image">
+                  <img src="/assets/food_finder.png" />
+                  
+                </div>
+                <div class="card-content">
+                  <p>
+                    Group project with <a href="https://github.com/Ethanl150">Ethan Lacy</a>, <a href="https://github.com/Shift4change">Paul Fodrovics</a>, and <a href= "https://github.com/ezeume">Nelson Ezeume</a>.<hr/>Website designed using multiple APIs including Google Maps.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://ethanl150.github.io/FoodFinder/">Food Finder</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        <!--end card-->
+        <div class="row">
+            <div class="col s12 m7">
+              <div class="card">
+                <div class="card-image">
+                  <img src="/assets/weather_pic.png" />
+                  
+                </div>
+                <div class="card-content">
+                  <p>
+                    Website built using Open Weather API and JS.
+                  </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://jbdunks.github.io/weather/">Weather App</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--end card-->
+
       </div>
-        </div>
-          <!----->
-        </div>
-      </div>
-    </container>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>
 </html>

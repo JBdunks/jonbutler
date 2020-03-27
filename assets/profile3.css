@@ -1,0 +1,53 @@
+body {
+  font-family: "Sen", sans-serif;
+  background-color: #1c37ff;
+}
+
+.topNav {
+  background-color: #070e40 !important;
+  font-family: "Sen", sans-serif;
+}
+.upper {
+  height: 200px;
+  background-color: #0e1b80;
+  color: white;
+  margin-bottom: 2%;
+}
+.lower-left {
+  background-color: #1c37ff;
+  justify-content: center;
+
+  height: 100%;
+}
+
+.lower-right {
+  background-color: #1c37ff;
+  justify-content: center;
+  height: 100%;
+}
+.card {
+  border: 2px solid black;
+  margin: auto;
+}
+#photo {
+  float: left;
+  margin-top: 0.8%;
+  margin-right: 5%;
+}
+#info {
+  margin-top: 5%;
+  float: left;
+  position: absoulte;
+  left: 200;
+}
+
+.contact1 {
+  font-size: 20px;
+}
+.contact a {
+  color: white;
+}
+
+a:hover {
+  color: #ffb317;
+}
